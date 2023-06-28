@@ -5,7 +5,7 @@ Feature: login
    Scenario Outline: validar a mensagem de erro ao tentar fazer login com usuario invalido
 
     Given que o usuario acesse a url do site sauce demo
-    And preencher os campo <email> e <senha> com um usuario invalido
+    And preencher os campos <email> e <senha> com um usuario invalido
     When clicar em login
     Then devera receber uma mensagem de erro
 
